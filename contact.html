@@ -19,7 +19,7 @@
   <body>
     <!-- header part -->
     <header class="sticky-top">
-      <div class="row">
+      <div class="row d-flex align-items-center bg-white">
         <h1
           class="col-md-5 bg-warning p-4 m-0 border-warning text-light text-center"
         >
@@ -27,31 +27,68 @@
         </h1>
         <div class="col-md-2 bg-white"></div>
         <!-- Navbar section -->
-        <div class="col-md-5 m-0 p-4 bg-white">
+        <div class="col-md-5 m-0">
           <nav class="navbar navbar-expand-md navbar-light">
             <!-- Navbar content -->
             <a class="nav-link text-secondary" href="index.html">About</a>
             <a class="nav-link text-secondary" href="portfolio.html"
               >Portfolio</a
             >
+
             <a class="nav-link text-secondary" href="#"
-              >Contact <span class="sr-only">(current)</span></a
+              >Contacts <span class="sr-only">(current)</span></a
             >
           </nav>
         </div>
       </div>
     </header>
+
     <!-- Contact body -->
     <main class="container m-3">
       <div class="jumbotron bg-white">
         <h2>Contacts</h2>
 
-        <hr class="my-4" />
+        <hr style="height: 30px; border-top: lightgray solid 3px;" />
+
+        <!-- form boxes -->
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputName1"
+              placeholder="John Honson"
+            />
+          </div>
+          <div class="form-group">
+            <!-- <input type="email" class="form-control" id="exampleFormControlInput1" > -->
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="name@example.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="5"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
       </div>
     </main>
     <!--  footer -->
     <footer
-      class="fixed-bottom py-3 m-0 border-warning text-center bg-dark text-light"
+      class="fixed-bottom py-3 m-0 border-warning text-center bg-dark text-warning"
     >
       <small>&copy; Kaori Caplan</small>
     </footer>
