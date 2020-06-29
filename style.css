@@ -14,10 +14,10 @@ h1 {
   text-align: center;
   background: sienna;
 }
-/* nav {
-  padding: 20px;
-  margin: 0;
-} */
+p,
+li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 body {
   background: url(img/background.jpg) center center / cover no-repeat fixed;
 }
