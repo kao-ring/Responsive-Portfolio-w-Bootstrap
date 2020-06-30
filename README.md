@@ -1,6 +1,6 @@
-# Project Title
+# Responsive Portfolio - Kaori Caplan -
 
-One Paragraph of project description goes here
+The first portofolio of Kaori Caplan
 
 ## Getting Started
 
