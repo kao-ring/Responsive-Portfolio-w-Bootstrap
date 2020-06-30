@@ -1,87 +1,47 @@
-# Responsive Portfolio - Kaori Caplan -
+## Responsive Portfolio - Kaori Caplan -
 
-The first portofolio of Kaori Caplan
+Responsive portofolio with Bootstrap of Kaori Caplan
 
-## Getting Started
+- [`Kaori Caplan Portfolio`](https://kao-ring.github.io/Responsive-Portfolio-w-Bootstrap/)
+- [`Git hub Repository`](https://github.com/kao-ring/Responsive-Portfolio-w-Bootstrap)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Using Bootstrap
 
-### Prerequisites
+Using some classes from Bootstrap for grids, responsive layout and photos.
+Smaller than 768px, header break into 2.
 
-What things you need to install the software and how to install them
+## Sticky header and footer
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Using a class .sticky-top and .fixed-bottom to make header and footer sticky.
 
 ```
-Give the example
+<header class="sticky-top">
 ```
 
-And repeat
-
 ```
-until finished
+<footer class="fixed-bottom py-3 m-0 border-warning text-center bg-dark text-warning">
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+Minimum Requirements
+
+✅-Functional, deployed application
+
+✅-GitHub repository with README describing the project
+
+✅-Navbar must be consistent on each page.
+
+✅-Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+
+✅-All links must work.
+
+✅-Must use semantic html.
+
+✅-Each page must have valid and correct HTML. (use a validation service)
+
+✅-Must contain your personalized information. (bio, name, images, links to social media, etc.)
+
+✅-Must properly utilize Bootstrap components and grid system.
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
