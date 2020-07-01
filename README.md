@@ -12,7 +12,7 @@ Smaller than 768px, header break into 2.
 
 ## index.html
 
--Using a class .sticky-top and .fixed-bottom to make header and footer sticky.
+- Using a class .sticky-top and .fixed-bottom to make header and footer sticky.
 
 ```
 <header class="sticky-top">
@@ -22,14 +22,22 @@ Smaller than 768px, header break into 2.
 <footer class="fixed-bottom py-3 m-0 border-warning text-center bg-dark text-warning">
 ```
 
--Using responsive layout for a body.
+- Using responsive layout for a body.
 
--Body contents are in a Jumbotron from bootstrap.
+- Body contents are in a Jumbotron from bootstrap.
 
 ## portfolio.html
 
--Using grid and card for contents.
+- Using grid and card for contents.
+- Using media queries on css file for contents.
+
+```
+@media screen and (max-width: 480px) {
+  #photo {
+    width: 100%;
+  }
+```
 
 ## contacts.html
 
--using form class fron botstrap.
+- using form class from botstrap.
