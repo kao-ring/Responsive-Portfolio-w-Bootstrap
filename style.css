@@ -17,8 +17,24 @@ h5 {
   color: white;
 }
 
-
-
 footer {
   border-top: solid 5px;
+}
+.banner {
+  margin-top: 80%;
+  margin-bottom: 5%;
+}
+#photo {
+  width: 18rem;
+}
+@media screen and (max-width: 480px) {
+  #photo {
+    width: 100%;
+  }
+
+  h1,
+  h2,
+  h5 {
+    font-size: smaller;
+  }
 }

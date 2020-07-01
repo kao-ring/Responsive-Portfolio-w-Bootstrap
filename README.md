@@ -10,9 +10,9 @@ Responsive portofolio with Bootstrap of Kaori Caplan
 Using some classes from Bootstrap for grids, responsive layout and photos.
 Smaller than 768px, header break into 2.
 
-## Sticky header and footer
+## index.html
 
-Using a class .sticky-top and .fixed-bottom to make header and footer sticky.
+-Using a class .sticky-top and .fixed-bottom to make header and footer sticky.
 
 ```
 <header class="sticky-top">
@@ -22,26 +22,14 @@ Using a class .sticky-top and .fixed-bottom to make header and footer sticky.
 <footer class="fixed-bottom py-3 m-0 border-warning text-center bg-dark text-warning">
 ```
 
-## Running the tests
+-Using responsive layout for a body.
 
-```
-Minimum Requirements
+-Body contents are in a Jumbotron from bootstrap.
 
-✅-Functional, deployed application
+## portfolio.html
 
-✅-GitHub repository with README describing the project
+-Using grid and card for contents.
 
-✅-Navbar must be consistent on each page.
+## contacts.html
 
-✅-Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-
-✅-All links must work.
-
-✅-Must use semantic html.
-
-✅-Each page must have valid and correct HTML. (use a validation service)
-
-✅-Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
-✅-Must properly utilize Bootstrap components and grid system.
-```
+-using form class fron botstrap.
